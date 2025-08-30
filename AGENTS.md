@@ -1,0 +1,1 @@
+This project code not contain code - only documentation for product requirements in markdown format

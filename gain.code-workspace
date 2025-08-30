@@ -1,0 +1,57 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "../infra"
+    },
+    {
+      "path": "../data"
+    },
+    {
+      "path": "../gain"
+    },
+    {
+      "path": "../edh"
+    }
+  ],
+  "settings": {
+    "workbench.colorCustomizations": {
+      // Title Bar
+      "titleBar.activeBackground": "#39FF14", // Pure neon green
+      "titleBar.activeForeground": "#000000",
+      "titleBar.inactiveBackground": "#2EBF0E", // Darker neon green
+      "titleBar.inactiveForeground": "#E0E0E0",
+      "titleBar.border": "#39FF14",
+
+      // Activity Bar
+      "activityBar.activeBackground": "#00FF66", // Bright electric green
+      "activityBar.background": "#006B3C", // Deep emerald for contrast
+      "activityBar.foreground": "#FFFFFF",
+      "activityBar.inactiveForeground": "#B2FFB2", // Soft mint
+      "activityBarBadge.background": "#00FF00", // Laser green
+      "activityBarBadge.foreground": "#000000",
+
+      // Status Bar
+      "statusBar.background": "#39FF14", // Matching neon green
+      "statusBar.foreground": "#000000",
+      "statusBar.border": "#39FF14",
+      "statusBarItem.hoverBackground": "#2EBF0E",
+    },
+    "files.exclude": {
+      "**/node_modules": true,
+      "**/__pycache__": true,
+      "**/.pytest_cache": true,
+      "**/.mypy_cache": true
+    },
+    "markdownlint.config": {
+      "MD022": false,
+      "MD022/blanks-around-headings": false,
+      "MD032": false,
+      "MD031": false
+    },
+    "jupyter.interactiveWindow.cellMarker.codeRegex": "^# COMMAND ----------|^# Databricks notebook source|^(#\\s*%%|#\\s*\\<codecell\\>|#\\s*In\\[\\d*?\\]|#\\s*In\\[ \\])",
+    "jupyter.interactiveWindow.cellMarker.default": "# COMMAND ----------"
+  }
+}
