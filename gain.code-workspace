@@ -34,10 +34,38 @@
       "activityBarBadge.foreground": "#000000",
 
       // Status Bar
-      "statusBar.background": "#39FF14", // Matching neon green
+      "statusBar.background": "#39FF14", // Neon green
       "statusBar.foreground": "#000000",
       "statusBar.border": "#39FF14",
       "statusBarItem.hoverBackground": "#2EBF0E",
+
+     
+
+      // Tabs
+      "tab.activeBackground": "#004D26", // Forest green
+      "tab.activeForeground": "#FFFFFF",
+      "tab.inactiveBackground": "#002B15", // Darker forest green
+      "tab.inactiveForeground": "#8FFFB2", // Pale mint
+      "tab.hoverBackground": "#00FF6699", // Semi-transparent bright mint
+      "tab.border": "#39FF14",
+
+      // Dropdowns / Menus
+      "dropdown.background": "#003D1F",
+      "dropdown.foreground": "#C8FFC8",
+      "dropdown.border": "#00FF66",
+
+      // Panels
+      "panel.background": "#001A0D",
+      "panel.border": "#00FF66",
+
+      // Notifications
+      "notification.background": "#004D26",
+      "notification.foreground": "#FFFFFF",
+      "notificationButton.background": "#00FF66",
+      "notificationButton.foreground": "#000000",
+      "notificationInfoIcon.foreground": "#39FF14",
+      "notificationWarningIcon.foreground": "#B2FFB2",
+      "notificationErrorIcon.foreground": "#FF5555" // Keep errors distinct (red)
     },
     "files.exclude": {
       "**/node_modules": true,
