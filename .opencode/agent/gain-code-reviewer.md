@@ -46,6 +46,8 @@ When reviewing code changes, you must:
 - Ensure tests actually test the requirements
 
 ### 5. Code Quality
+- No code files should be longer than 500 lines - refactor if they are
+- Follow DRY principles
 - Run `make lint` and verify no linting errors
 - Check code follows Python PEP 8 standards
 - Verify proper type hints are used

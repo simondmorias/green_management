@@ -52,3 +52,8 @@ We are currently creating an MVP only:
 - Avoid network optimization and performance tuning for MVPs
 - Tasks should deliver working features, not frameworks
 - Minimize the number of files created - only what's essential
+
+## Upon Completion
+- Use the `task` tool to collaborate with the `gain-code-reviewer` agent to get feedback
+- If the `gain-code-reviewer` requires changes you MUST implement them
+- Iterate until the `gain-code-reviewer` is content that the Task has been completed
