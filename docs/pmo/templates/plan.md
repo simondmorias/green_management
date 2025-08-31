@@ -1,7 +1,9 @@
 # Implementation Plan
 
+*Guide for completing this document template - Be throrough, focus on the functionality requested and describe how it should be implemented as a high level design*
+
 ## Document Control
-**Feature Name:** [Feature/Module Name]  
+**Feature Name & Link:** [(./feature.md)[Feature Name]]
 **Date:** [Creation Date]  
 
 ---
@@ -31,10 +33,9 @@
 
 ### Design Principles Applied
 - [ ] Local-first development (Docker Compose)
-- [ ] Single database strategy (Postgres + pgvector)
 - [ ] Fail-fast approach (no silent failures)
-- [ ] SSE for streaming
-- [ ] Queue-based async processing (Celery + Redis)
+- [ ] Any new technologies/libraries/frameworks clearly explained in Architectural Decisions
+- [ ] High Level Design is Clear and Simple, not over complicated or adding features not requested by the Feature document
 
 ---
 
@@ -125,6 +126,22 @@
 **Database Design:**
 - Schema changes: [Entity and relationship modifications]
 - Versioning strategy: [Time-travel requirements]
+
+---
+
+### 4. Infra Repository (`/infra`)
+*Changes to Infrastructure*
+
+#### Scope of Work
+- **Complexity:** Low | Medium | High
+- **Primary Changes:** [High-level description]
+- **Impact on Downstream:** [Effects on dimension exports]
+
+#### Infrastructure Components
+**Docker Changes:**
+- New Images: [Purpose and data operations]
+- Configuration modifications: [Description]
+- Features: [Description]
 
 ---
 

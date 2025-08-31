@@ -1,5 +1,8 @@
 # [Feature Title]
 
+
+*Guide for completing this document template - Be throrough, focus on the functionality requested - not technology*
+
 ## Document Control
 **Product Name:** [Feature/Module Name]  
 **Date:** [Creation Date]  

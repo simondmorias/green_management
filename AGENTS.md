@@ -20,6 +20,7 @@ The project uses templates to standardize the creation of features, plans, and t
    - Used for individual development tasks
    - Includes task requirements, technical details, and developer completion sections
    - Tracks status and acceptance criteria
+   - Tasks MUST be small enough to be completed in under 800 lines of code and in a single Repo
 
 ## File Organization Structure
 

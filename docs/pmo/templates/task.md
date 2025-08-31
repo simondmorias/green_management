@@ -1,7 +1,12 @@
 # T[Number] - [Feature] - [Task Title]
 
+*Task should to be completable in under 800 lines of code - if not, break down into mutliple tasks*
+*Task should be focused on a single repo only*
+*Refer to ./docs/{repo}/repo_layout.md for file and folder structures - if you deviate from this leave a note for teh developer to update the docs*
+
 ## Document Control
-**Feature Name:** [Feature/Module Name]  
+**Feature Name & Link:** [(../feature.md)[Feature Name]]
+**Plan Name & Link:** [(../plan.md)[Plan]]
 **Date Created:** [Date]  
 **Status:** Not Started | In Progress | Complete
 
