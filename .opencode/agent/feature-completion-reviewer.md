@@ -2,7 +2,6 @@
 description: Feature Completion Reviewer for Gain Platform
 mode: subagent
 model: openai/gpt5-turbo-reasoning
-temperature: 0.1
 reasoningEffort: high
 tools:
   read: true

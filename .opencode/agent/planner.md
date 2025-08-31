@@ -1,8 +1,8 @@
 ---
 description: Design the requirements for new Features in the Gain Platform
 mode: subagent
-model: anthropic/claude-opus-4-1-20250805
-temperature: 0.1
+model: openai/gpt5-turbo-reasoning
+reasoningEffort: high
 tools:
   write: true
   edit: false
