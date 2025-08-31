@@ -19,3 +19,8 @@ By default you only create a Feature document. Creation of Plans and Tasks are b
 Use the templates in ./docs/pmo/templates to create new documents in ./docs/pmo/features. Complete the templates to ensure the user requirements are met.
 
 Ensure you follow ./docs/README.md for Functional advice on the Gain Platform that we are building
+
+Remember:
+- This is a demo platform. Do not over complicate the requirements
+- Do not focus on production style requirements such as page loading time etc
+- We are working towards an MVP - it doe snot need to be polished.
