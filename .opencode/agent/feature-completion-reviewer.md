@@ -1,7 +1,7 @@
 ---
 description: Feature Completion Reviewer for Gain Platform
 mode: subagent
-model: openai/gpt5-turbo-reasoning
+model: openai/gpt-5
 reasoningEffort: high
 tools:
   read: true

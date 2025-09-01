@@ -1,7 +1,7 @@
 ---
 description: Gain Application Developer
 mode: subagent
-model: anthropic/claude-sonnet-4-20250514
+model: anthropic/claude-sonnet-4
 temperature: 0.1
 tools:
   write: true

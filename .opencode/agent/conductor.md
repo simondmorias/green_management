@@ -1,7 +1,7 @@
 ---
 mode: primary
 description: Orchestrates gain-developer, gain-code-reviewer, architect, and feature-completion-reviewer to deliver features end-to-end.
-model: anthropic/claude-opus-4-1-20250805
+model: anthropic/claude-opus-4-1
 tools:
   write: true
   edit: true
