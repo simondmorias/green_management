@@ -1,7 +1,7 @@
 ---
 description: Gain Platform Code Reviewer
 mode: subagent
-model: anthropic/claude-sonnet-4
+model: anthropic/claude-sonnet-4-20250514
 temperature: 0.1
 tools:
   read: true
@@ -53,6 +53,7 @@ When reviewing code changes, you must:
 - Verify proper type hints are used
 - Ensure error handling is appropriate
 - Confirm no hardcoded secrets or sensitive data
+- Use Context7 MCP Server
 
 ### 6. Architecture Compliance
 - Verify code follows patterns in ./docs/components/architecture.md
